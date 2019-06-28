@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+    <button id="botão">Aperte</button>
+    <div id="quad"></div>
+
+    <script>
+        var buttonElement = document.getElementById('botão');
+        var quadElement = document.getElementById('quad');
+        buttonElement.onclick = function () {
+            var quadrado = document.createElement('div');
+            quadrado.style.width = '100px';
+            quadrado.style.height = '100px';
+            quadrado.style.backgroundColor = '#00000f';
+            quadElement.appendChild(quadrado);
+        };
+    
+    </script>
+<body>
+
+</body>
+
+</html>
