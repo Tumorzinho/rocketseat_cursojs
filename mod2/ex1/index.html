@@ -13,6 +13,13 @@
     <script>
         var buttonElement = document.getElementById('botão');
         var quadElement = document.getElementById('quad');
+        buttonElement.onclick = function () {
+            var quadrado = document.createElement('div');
+            quadrado.style.width = '100px';
+            quadrado.style.height = '100px';
+            quadrado.style.backgroundColor = '#00000f';
+            quadElement.appendChild(quadrado);
+        };
     
     </script>
 <body>
