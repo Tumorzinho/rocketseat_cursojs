@@ -14,7 +14,12 @@
     <script>
         var nomes = ["Diego", "Gabriel", "Lucas"];
         var listElement = document.querySelector('ul');
-        
+        for (nome of nomes) {
+            var listtElement = document.createElement('li');
+            var textElement = document.createTextNode(nome);
+            listtElement.appendChild(textElement);
+            listElement.appendChild(listtElement);
+        }
     
     </script>
 </body>
