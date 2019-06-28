@@ -29,6 +29,9 @@
             quadrado.style.width = '100px';
             quadrado.style.height = '100px';
             quadrado.style.backgroundColor = '#00000f';
+            quadrado.onmouseover = function () {
+                quadrado.style.backgroundColor = getRandomColor();
+            }
             quadElement.appendChild(quadrado);
         };
     
