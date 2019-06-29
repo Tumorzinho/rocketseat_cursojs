@@ -25,3 +25,5 @@ function addTodo() {
     inputElement.value = '';
     renderTodos();
 }
+
+buttonElement.onclick = addTodo;
