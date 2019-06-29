@@ -18,9 +18,9 @@
         var nomes = ["Diego", "Gabriel", "Lucas"];
         var listElement = document.querySelector('ul');
         var inputElement = document.querySelector('input');
-        for (nome of nomes) {
-            var listtElement = document.createElement('li');
-            var textElement = document.createTextNode(nome);
+        function addItem(text) {
+            var listtElement = document.createElement('listt');
+            var textElement = document.createTextNode(text);
             listtElement.appendChild(textElement);
             listElement.appendChild(listtElement);
         }
