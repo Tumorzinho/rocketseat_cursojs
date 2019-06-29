@@ -7,3 +7,9 @@ var todos = [
     "Estudar Javascript",
     "Acessar comunidade da Rocketseat"
 ];
+
+function renderTodos {
+        for (todo of todos) {
+            console.log(todo);
+        }
+};
