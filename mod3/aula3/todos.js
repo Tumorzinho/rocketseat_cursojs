@@ -8,8 +8,10 @@ var todos = [
     "Acessar comunidade da Rocketseat"
 ];
 
-function renderTodos {
+function renderTodos() {
         for (todo of todos) {
             console.log(todo);
         }
 };
+
+renderTodos();
